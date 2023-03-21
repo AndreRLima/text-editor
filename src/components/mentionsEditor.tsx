@@ -23,7 +23,9 @@ const MentionEditor = () => {
         <MentionsInput value={value} onChange={(e) => setValue(e.target.value)}>
 
             <Mention
-                trigger={emailRegex}
+                trigger="@"
+                regex={re}
+                markup="{____}"
                 data={users}
                 style={{ backgroundColor: "#d1c4e9" }}
             />

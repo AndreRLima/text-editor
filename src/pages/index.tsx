@@ -1,5 +1,6 @@
 import MentionEditor from '@/components/mentionsEditor'
 import Tagify from '@/components/tagifyEditor'
+import Tiptap from '@/components/tiptap'
 import dynamic from 'next/dynamic'
 import Head from 'next/head'
 
@@ -18,6 +19,7 @@ export default function Home() {
       </Head>
       <main className='w-1/2 mx-auto mt-52'>
           <Editor/>
+          <Tiptap/>
           <Tagify/>
           <MentionEditor/>
       </main>

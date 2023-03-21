@@ -16,7 +16,7 @@ import { AllStyledComponent } from '@remirror/styles/emotion';
 
 const ALL_USERS = [
     { id: 'joe', label: '-'},
-    { id: 'sue', label: '{Sue' },
+    { id: 'sue', label: 'Sue' },
     { id: 'pat', label: '{Pat' },
     { id: 'tom', label: '{Tom' },
     { id: 'jim', label: '{Jim' },
